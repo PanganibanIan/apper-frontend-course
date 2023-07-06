@@ -1,0 +1,263 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid white;
+    height: 102px;
+    width: 80%;
+    margin: 10px;
+  }
+  
+  .box-logo {
+    margin: 0 10px;
+    height: 72px ;
+    width: 66px ;
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/prod-gadc-corp-2019/public/web/2021-10-06/615d249e34049/McDO-40th-logo-original.png");
+    background-size: 66px 72px;
+  }
+  
+  .box-redirect {
+    height: 40px ;
+    width: 90px ;
+    color: #db0007;
+    display: inline;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+  }
+  
+  .box-menu {
+    margin: 0 10px;
+    height: 35px ;
+    width: 35px ;
+    background-image: url("https://cutewallpaper.org/24/menu-icon-png/menu-icon-png-red-512x512-png-clipart-download.png");
+    background-size: 35px 35px;
+  }
+  
+
+  .box-redirect:hover {
+    color: black;
+  }
+  
+  a:hover{
+    cursor: pointer;
+    color: grey;
+  }
+
+  
+  .events {
+    display: flex;
+    align-content: flex-start;
+    background-image: url("https://d3bjzufjcawald.cloudfront.net/public/web/2022-08-04/62eb5168b6c3a/Mcdo_E-Gifts_CAROUSEL-DESKTOP-Web-Banner-Refresh_1920x611-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    border: 2px solid #db0007;
+    background-color: #db0007; 
+    margin: 0px 50px;
+    height: 481px; 
+    width: 100vw;
+  }
+  .events-buttons{
+    border: 2px solid #ebebeb;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    margin: 20px 10px;
+    height: 8px;
+    width: 8px;
+    
+  }
+  
+  .events-buttons-current{
+    border: 2px solid #ebebeb;
+    border-radius: 50%;
+    background-color: #db0007;
+    margin: 20px 10px;
+    height: 8px;
+    width: 8px;
+    
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    border: 2px solid white;
+    justify-items: center;
+    align-items: center;
+    height: 684px;
+    width: 70vw;
+    padding: 60px;
+  }
+  
+  .service-options {
+    position: relative;
+    background-color: #ffbc0d;
+    background-image: url("https://www.wallpaperflare.com/static/20/846/485/mcdonalds-logo-fast-food-chain-logo-wallpaper.jpg");
+    background-size: 420px 262px;
+    border-radius: 20%;
+    height: 262px;
+    width: 262px;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    color: beige;
+    display: flex;
+  }
+  
+  .service-text{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffbc0d;
+    background-color: #ffbc0d;
+    margin: 0 10px;
+    height: 210px;
+    width: 100vw;
+  }
+  
+  .app-redirect{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 10px;
+      height: 104px;
+      width: 242px;
+  }
+  
+  #mcdelivery{
+    width: 110px;
+    height: 100px;
+    background-image: url("https://play-lh.googleusercontent.com/tTjgMcXTv1gFULBOvXJ__olKFxWDYIK9hkDKJ9z2zMrsgBeJpi_lXI81pYDCHdQiHg=w600-h300-pc0xffffff-pd");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .appdownload{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 162px;
+    height: 86px;
+  }
+  
+  #googleplay{
+    width: 112px;
+    height: 33px;
+    background-image: url("https://www.pngmart.com/files/10/Get-It-On-Google-Play-PNG-Clipart.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  #applestore{
+    width: 112px;
+    height: 33px;
+    background-image: url("https://assets.stickpng.com/thumbs/5a902db97f96951c82922874.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .footer-options{
+    margin: 20px 10px;
+    height: 104px;
+    width: 250px;
+  }
+  
+  .footer-options a{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .footer-options {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .foot-options1 {
+    display: grid;
+    grid-template-rows: 4fr;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .foot-options2 {
+    display: grid;
+    grid-template-rows: 4fr;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .socmed-redirect{
+    margin: 20px 10px;
+    height: 104px;
+    width: 242px;
+    text-align: center;
+    font-family: Arial;
+    margin: 20px 20px;
+  }
+  
+  .socmed-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  #facebook-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://icon-library.com/images/facebook-icon-color/facebook-icon-color-2.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  #instagram-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://icones.pro/wp-content/uploads/2021/02/instagram-icone-rouge.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  #twitter-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://www.nicepng.com/png/full/237-2374250_twitter-logo-red-png.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  
